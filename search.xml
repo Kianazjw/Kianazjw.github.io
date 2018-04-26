@@ -4,6 +4,36 @@
   
     
     <entry>
+      <title><![CDATA[Design Pattern]]></title>
+      <url>http://yoursite.com/2018/04/26/Design-Pattern/</url>
+      <content type="html"><![CDATA[<p>接口体现的是一种规范和实现分离的哲学，充分利用接口可以极好地降低程序模块间的耦合，从而提高系统<br>的可扩展性和可维护性</p>
+<p>设计模式目的：容易拓展，避免大幅度修改代码。所以不要只使用具体类编程，要优先使用接口/抽象类编程。</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Java notes]]></title>
+      <url>http://yoursite.com/2018/04/26/Java-notes/</url>
+      <content type="html"><![CDATA[<h2 id="跨平台"><a href="#跨平台" class="headerlink" title="跨平台"></a>跨平台</h2><p>java语言编写的程序需要经过编译步骤，但这个步骤不是生成特定平台的机器码，而是生成一种平台无关的<br>字节码(.class文件),这种字节码必须使用java解释器(JVM)来解释执行。JVM是一个抽象的计算机。运行java<br>程序不仅需要JVM，还需要类加载器，字节码校验器以及大量基础类库，这些东西加一块就是JRE。</p>
+<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2><p>OOA 面向对象分析<br>OOD 面向对象设计<br>OOP 面向对象编程</p>
+<h2 id="UML类图三种基本关系"><a href="#UML类图三种基本关系" class="headerlink" title="UML类图三种基本关系"></a>UML类图三种基本关系</h2><p>关联(聚合，组合)<br>泛化(继承)<br>依赖</p>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>单行注释 //<br>多行注释 /<em> </em>/<br>文档注释  javadoc可以直接将源码 里的文档注释提取成一份系统的API文档，文档注释以(/*<em>)<br>开始，以(</em>/)结束。javadoc标记有@author，@see…</p>
+<p>##<br>break     结束循环<br>continue  结束本次循环<br>return    结束方法</p>
+<p>方法重载(方法同名，只需形参列表不同即可)</p>
+<p>成员变量，系统加载类时，会自动为成员变量分配内存空间，并指定初始值(null,0,false)<br>局部变量，保存在方法栈中，需要显式初始化后才能使用</p>
+<p>多个构造函数用this,减少重复代码</p>
+<p>int i = new Integer(1).intValue();</p>
+<p>toString 默认是类名@hashcode值</p>
+<h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><p>接口方法默认public abstract<br>接口属性默认public static final<br>接口内部类默认public static<br>接口支持多继承</p>
+<h2 id="Jar"><a href="#Jar" class="headerlink" title="Jar"></a>Jar</h2><p>java archive file java档案文件，是一种压缩文件<br>jar与zip区别就是jar中包含了一个名为META-INF/MANIFEST.MF 的清单文件<br>把应用程序提供给别人使用</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[关闭百度广告]]></title>
       <url>http://yoursite.com/2018/04/05/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A/</url>
       <content type="html"><![CDATA[<p><img src="/img/baidu/baidu1.png" alt=""><br><br><br><br><img src="/img/baidu/baidu2.png" alt=""><br><br><br><br><img src="/img/baidu/baidu3.png" alt=""><br><br><br><br><img src="/img/baidu/baidu4.png" alt=""></p>
